@@ -1,0 +1,428 @@
+@media only screen and (max-width:1187px) and (min-width:606px) {
+
+     .container {
+          width: auto;
+          margin: 0 auto;
+     }
+
+     .head {
+          display: flex;
+
+     }
+
+     .main_header {
+          justify-content: left;
+
+     }
+
+     .logo {
+          width: 108px;
+     }
+
+     .navbar {
+          padding: 0px 15px;
+     }
+
+     .nav_list li a {
+
+          padding: 0px 14px;
+          margin: 0px 0px;
+     }
+
+     .all {
+          height: 110vh;
+          width: 40%;
+          margin-left: 112px;
+     }
+
+     .part1 {
+          flex-wrap: wrap;
+          flex-direction: column;
+     }
+
+     .img_1 img {
+          width: 450px;
+     }
+
+     .part2 {
+          flex-wrap: wrap;
+          flex-direction: column-reverse;
+
+
+     }
+
+     .part3 {
+          flex-wrap: wrap;
+          flex-direction: column-reverse;
+
+     }
+
+     .menus {
+          flex-direction: column;
+     }
+
+     .left_side {
+          width: 65%;
+
+     }
+
+     .three {
+          display: flex;
+          flex-wrap: wrap;
+          flex-direction: column;
+     }
+
+     .right_side img {
+          width: 450px;
+          height: 325px;
+
+
+     }
+
+     .images {
+          margin: auto;
+     }
+
+     .bg_img {
+          height: 60vh;
+     }
+
+     .office {
+          margin: 30px;
+     }
+
+     .footer {
+          height: 70px;
+     }
+
+     .sumbit {
+          width: 75%;
+     }
+
+     .sumbit button {
+          margin-top: 20px;
+          width: 126px;
+     }
+
+     .sumbit input {
+          margin-top: 20px;
+     }
+}
+
+
+
+
+
+@media only screen and (max-width:606px) and (min-width:420px) {
+
+     .container {
+          width: auto;
+          margin: 0 auto;
+     }
+
+     .main_header {
+          flex-direction: column;
+
+     }
+
+     .logo {
+          text-align: center;
+     }
+
+     .navbar {
+          display: none;
+     }
+
+     .nav_list {
+
+          flex-wrap: wrap;
+          flex-direction: column;
+     }
+
+     .img_1 img {
+          width: 300px;
+
+     }
+
+     .right_side img {
+          width: 340px;
+          height: 328px;
+     }
+
+     .all {
+          height: 110vh;
+          width: 50%;
+          align-items: center;
+          text-align: center;
+          margin: auto;
+     }
+
+     .part1 {
+          flex-direction: column;
+     }
+
+     .part2 {
+          flex-direction: column-reverse;
+     }
+
+     .part3 {
+          flex-direction: column-reverse;
+     }
+
+     .menus img {
+          width: 380px;
+          height: 325px;
+     }
+
+     .sumbit input {
+          width: 220px;
+     }
+
+     .big_txt {
+          font-size: 32px;
+          padding: 15px;
+     }
+
+     .small_txt {
+          font-size: 18px;
+     }
+
+     .img_1 img {
+          width: 340px;
+          height: 232px;
+     }
+
+     .left_side {
+          text-align: left;
+          width: 74%;
+     }
+
+     .burger {
+          display: block;
+
+
+     }
+
+     .all_content {
+          text-align: center;
+     }
+
+     .contact_us {
+          font-size: 30px;
+     }
+
+     .keep {
+          font-size: 26px;
+          margin-top: 10px;
+     }
+
+     .text {
+          font-size: 17px;
+     }
+
+     .sumbit {
+
+          max-width: 100%;
+          margin: auto;
+
+     }
+
+     .sumbit button {
+          /* margin-top: 30px; */
+          max-width: 100px;
+          height: 35px;
+
+
+     }
+
+     .three {
+          flex-wrap: wrap;
+          flex-direction: column;
+     }
+
+     .three h3 {
+          font-size: 18px;
+     }
+
+     .three p {
+          font-size: 15px;
+     }
+
+     .office {
+          margin: 30px;
+     }
+
+     .footer {
+          height: 70px;
+          font-size: 13px;
+     }
+}
+
+
+@media only screen and (max-width:420px) {
+     .container {
+          width: auto;
+          margin: 0 auto;
+     }
+     
+     .main_header {
+          flex-direction: column;
+
+     }
+
+     .logo {
+          text-align: center;
+     }
+
+     .navbar {
+          display: none;
+     }
+
+     .nav_list {
+
+          flex-wrap: wrap;
+          flex-direction: column;
+     }
+
+     .text_small {
+          font-size: 19px;
+     }
+
+     .text_big {
+          font-size: 30px;
+     }
+
+     .img_1 img {
+          width: 300px;
+
+     }
+
+     .right_side img {
+          width: 340px;
+          height: 328px;
+     }
+
+     .all {
+          height: 110vh;
+          width: 50%;
+          align-items: center;
+          text-align: center;
+          margin: auto;
+     }
+
+     .part1 {
+          flex-direction: column;
+     }
+
+     .part2 {
+          flex-direction: column-reverse;
+     }
+
+     .part3 {
+          flex-direction: column-reverse;
+     }
+
+     .menus img {
+          width: 330px;
+          height: 305px;
+     }
+
+     .sumbit input {
+          width: 220px;
+     }
+
+     .big_txt {
+          font-size: 32px;
+          padding: 15px;
+     }
+
+     .small_txt {
+          font-size: 18px;
+     }
+
+     .img_1 img {
+          width: 340px;
+          height: 232px;
+     }
+
+     .left_side {
+          text-align: left;
+          width: 74%;
+     }
+
+     .burger {
+          display: block;
+          cursor: pointer;
+
+
+     }
+
+     .all_content {
+          text-align: center;
+          max-width: 100%;
+          margin: auto;
+     }
+
+
+     .contact_us {
+          font-size: 30px;
+     }
+
+     .keep {
+          font-size: 26px;
+          margin-top: 10px;
+     }
+
+     .text {
+          font-size: 17px;
+     }
+
+     .sumbit {
+          margin-top: 30px;
+          flex-wrap: wrap;
+          flex-direction: column;
+          width: 100%;
+     }
+
+     .sumbit button {
+          max-width: 100%;
+          margin: auto;
+          margin-top: 20px;
+          width: 255px;
+          height: 40px;
+
+     }
+
+     .three {
+          flex-wrap: wrap;
+          flex-direction: column;
+     }
+
+     .three h3 {
+          font-size: 18px;
+     }
+
+     .three p {
+          font-size: 15px;
+     }
+
+     .chart_us {
+          width: auto;
+     }
+
+     .office {
+          width: auto;
+          margin: 10px;
+     }
+
+     .phone {
+          width: auto;
+     }
+
+     .footer {
+          height: 50px;
+          font-size: 13px;
+     }
+
+
+}
